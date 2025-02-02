@@ -1,0 +1,268 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box; /*if we add border it will dd to outside and increse the space by this it will fill within the box */
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex; /* this div is the utside div so by this all the other divs will come in same line*/
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;/*through this the logo will be completely filled inside thee box created*/
+    height: 100%;
+    width: 100%;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/*boxx2*/
+
+.addicon{ /*for having location icon and india in the same line*/
+    display: flex;
+}
+.addressfirst{
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.addresssec{
+    color: #ffffff;
+    font-size:14px;
+    margin-left: 3px;
+}
+
+/*box3*/
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;/*this will evenly spread all the three things*/
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: pink;
+}
+
+
+.selectt{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+
+.searchh{
+    width: 100%;/* as the seach bar is big so by this all the spaces left will be vovered by this*/
+    font-size: 1rem;
+    border: none;
+}
+.serachicon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+/*box3 and box4*/
+.f1{
+    font-size: 12px;
+}
+.f2{
+    font-size: 14px;
+    font-weight: 700;/*bold*/
+}
+
+/*box5*/
+.cartt i{
+   font-size: 30px;/* for icons*/
+}
+
+.cartt{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+
+/*panneell*/
+.pannel{
+    height: 40px;
+    color: white;
+    background-color: #232f3E;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box2{
+    margin-left: 20px;
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.box3{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+
+
+.herosection{
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.box4{
+    color: #0f1111;
+    display: flex;
+    height: 40px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.box4 a{
+    color: #007185;
+}
+
+
+.shopsection{
+    display: flex;
+    flex-wrap: wrap;/*this will nake the other 4 boxex to move in secondd line*/
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.shop{
+    width: 23%;/*this was set for 4 boxex*/
+    height: 400px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.shopimg{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.shopcontent{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.shopcontent a{
+    color: #007185;
+}
+
+footer{
+    margin-top: 15px;
+
+}
+
+.bott1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #37475a;
+    color: white;
+    font-size: 13px;
+}
+
+.bott2{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    justify-content: center;
+    
+}
+
+.bott2 a{
+    font-size: 14px;
+    margin-top: 10px;
+    display: block;
+}
+
+.bott2 p{
+    font-size: 16px;
+}
+
+ul{
+    margin-top: 25px;
+}
+
+
+.bott3{
+    background-color: #222f3d;
+    border-top: 0.5px solid white;
+    height: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;/*through this the logo will be completely filled inside thee box created*/
+    height:50px;
+    width: 100px;
+   
+}
+
+
+.bott4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.pages{
+    padding-top: 25px;
+}
+
+.copyright{
+    padding-top: 5px;
+}
